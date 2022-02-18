@@ -1,8 +1,8 @@
 
 .main_first{
-    width: 100%;
+    width: 1200px;
     height: 50px;
-    background-color: rgba(139, 138, 138, 0.205);
+    background-color: rgb(152, 198, 212);
     margin-left: 20px;
     margin: 0 auto;
 }
@@ -28,92 +28,155 @@
     margin-right: 3px;
 }
 .main_second{
-    width: 100%;
+    width: 1200px;
     height: 70px;
     background-color: white;
-   
+    margin: 0 auto;
   
 }
 .second_left{
-    width: 30%;
-    height: 100%;
+    width: 280px;
+    height: 70px;
     display: inline-block;
+    vertical-align: top;
+    
     
 }
 .second_left h2{
     font-family:cursive;
-    color: grey;
-   
+    font-size: 30px;
+    color: rgb(152, 198, 212);
+    padding-left: 10px;
+    padding-top: 15px;
+  margin: 0;
 }
 .second_right{
-    width: 68%;
-    height: 100%;
-    display: inline-block;
     
+    width: 760px;
+   height: 70px;
+    display: inline-block;
+    /* margin-left: 10px; */
     
     
     
    
+}
+.second_right ul{
+    padding: 0;
+    margin: 0;
+     padding-top: 17px;
+    
 }
 
 .second_right ul li{
     list-style-type:none;
     display: inline-block;
    
-   text-align: center;
+   /* text-align: center; */
    font-family: sans-serif;
    font-size: 12px;
    font-weight: bold;
    text-transform: uppercase;
-   margin-left: 40px;
+   margin-left: 7px;
    list-style-type: none;
+
+   vertical-align: top;
+   
+   box-sizing: border-box;
+   padding: 10px 10px;
+  
 }
 .second_right ul a{
     text-decoration: none;
-    color: grey;
+    color: rgb(64, 96, 102);
     display: inline-block;
+    vertical-align: top;
+}
+.second_right ul a:hover{
+    color: rgb(152, 198, 212);
+}
+.second_most_right{
+    width: 130px;
+   height: 30px;
+ 
+    
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 15px;
+   /* margin: 0;
+   padding: 0; */
    
 }
+.second_most_right a{
+    text-decoration: none;
+  
+ font-family: sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 13px 10px;
+  color: rgb(64, 96, 102);
+   vertical-align: top;
+ 
+  
+   
+   
+  
+}
+.second_most_right a:hover{
+    color: white;
+    background-color:rgb(152, 198, 212) ;
+    border-radius: 5px;
+}
+
 .main_third{
-    width: 100%;
-    height: 450px;
-    background: url(./images/background.jpg);
+    width: 1200px;
+    height: 400px;
+    background: url(./images/big-data-analytics-banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    position: relative;
+    
 }
 .main_main_third{
- width: 1000px;
- height: 370px;
- margin-left: 200px;
- margin-top:78px ;
- display: inline-block;
+    width: 800px;
+        height: 300px;
+        top: 100px;
+        position: absolute;
+        
+        left: 200px;
+    
 }
 .third_left{
-    width: 500px;
-    height: 370px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    
+    background-image: url("././images/Babu\ Mama1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
-  .third_left img{
+  /* .third_left img{
       width: 100%;
       height: 100%;
      
-  }   
+  }    */
   
 .third_right{
-    width: 486px;
-    height: 370px;
+    width: 400px;
+    height: 300px;
     background-color: rgb(252, 248, 248);
-   display: inline-block;
-  color: grey;
+  position: absolute;
+  color: rgb(64, 96, 102);
    padding-left: 10px;
    font-family: sans-serif;
-   vertical-align: top;
-   margin-left: -4px;
-   margin-bottom: -2px;
+  left: 400px;
+  box-sizing: border-box;
    
 }
 .third_right h6{
@@ -127,16 +190,29 @@
     margin: 0px;
 }
 .main_fourth{
-    width: 600px;
-   height: 30px;
-    background-color: grey;
+    width: 800px;
+   height: 60px;
+    background-color:rgb(152, 198, 212) ;
     margin: 0 auto;
 }
-
+.main_fourth ul{
+    margin: 0;
+    padding: 0;
+}
+.main_fourth ul li{}
+.main_fourth ul li a{}
+.main_fourth ul li a i{}
+#About_Me{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+ 
+}
 
 #About_Me h2{
     font-family: cursive;
-    color: grey;
+    font-size: 30px;
+    color:rgb(152, 198, 212);
     text-align: center;
     margin-top: 60px;
 }
@@ -144,6 +220,63 @@
     padding: 100px;
     padding-top: 0px;
     font-family: sans-serif;
-    color: rgb(66, 66, 66);
+    font-size: 18px;
+    color: rgb(55, 77, 83);
     text-align: center;
+}
+.footer{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    background-color:rgb(216, 233, 238) ;
+   
+}
+.footerleft{
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+   
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 20px;
+}
+.footerleft p{
+    font-family: sans-serif;
+    font-size: 15px;
+
+    color:grey;
+}
+
+.footerright{
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-left: 381px;
+    padding-left: 20px;
+    display: inline-block;
+    
+    text-align: right;
+}
+#Interest{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+#Interest h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(152, 198, 212);
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#Interest p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(152, 198, 212);
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 10px;
 }
